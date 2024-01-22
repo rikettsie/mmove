@@ -1,0 +1,13 @@
+[package]
+name = "mmove"
+version = "0.1.0"
+edition = "2021"
+description = "A concurrent rust program to move the mouse in a circle and click on a target"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.18", features = ["derive"] }
+enigo = "0.1.3"
+tokio = { version = "1.35.1", features = ["full"] }
+tokio-util = "0.7.10"
